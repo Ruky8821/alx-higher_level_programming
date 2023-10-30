@@ -8,4 +8,4 @@ sys.stderr.write(str + "\n")
 
 # exit status
 e_status = 1
-sys.exit(exit_status)
+sys.exit(e_status)
