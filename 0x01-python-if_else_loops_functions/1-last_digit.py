@@ -16,13 +16,11 @@ for x in range(0, len(numarr)):
             elif y == 0:
                 print(f"Last digit of {number} is {y} and is 0")
             else:
-                print(f"{Last digit of {number} is {y} and is less than 6 and not 0")
+                print(f"{str} {number} is {y} and is less than 6 and not 0")
         elif number < 0:
             if y == 0:
                 print(f"Last digit of {number} is {y} and is 0")
             else:
-                print(f"Last digit of {number} is -{y} and is less than 6 and not 0")
+                print(f"{str} {number} is -{y} and is less than 6 and not 0")
         else:
             print(f"Last digit of {number} is {y} and is 0")
-
-
