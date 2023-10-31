@@ -7,6 +7,6 @@ def print_last_digit(number):
         numarr.append(int(items))
 
     for x in range(0, len(numarr)):
-       # y = numarr[x]
+        y = numarr[x]
         if x == (len(numarr)-1):
-            print("{}".format(numarr[x]), end='')
+            print("{}".format(y), end='')
