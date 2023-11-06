@@ -5,5 +5,3 @@ def no_c(my_string):
         if y not in ('c', 'C'):
             new += y
     return new
-
-
