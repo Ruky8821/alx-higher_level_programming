@@ -11,6 +11,8 @@ void print_python_list_info(PyObject *z)
 
 	y = 0;
 	alc = ((PyListObject *)z)->allocated;
+	x = Py_SIZE(z);
+
 	printf("[*] size of the Python Lis = %d \n", x);
 	printf("[*] Allocated = %d \n", i);
 
