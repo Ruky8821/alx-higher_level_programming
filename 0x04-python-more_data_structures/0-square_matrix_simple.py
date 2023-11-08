@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
+    return list(map(lambda new: list(map(lambda x: x*x, new)), matrix))
+    '''
     new = matrix
 
     for x in new:
@@ -8,5 +10,6 @@ def square_matrix_simple(matrix=[]):
             print("{:d}".format(z*z), end='')
             if y < len(x) - 1:
                 print(", ", end='')
-        print("]")
+        print("]", end='')
     return new
+    '''
