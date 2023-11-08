@@ -9,3 +9,4 @@ def square_matrix_simple(matrix=[]):
             if y < len(x) - 1:
                 print(", ", end='')
         print("]")
+    return new
